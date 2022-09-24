@@ -5,6 +5,7 @@
     margin: 0 auto;
 }
 
+
 main{
     width: 800px;
     height: 40vh;
@@ -23,6 +24,8 @@ img{
 }
 
 .grid{
+    width: 800px;
+    height: 50vh;
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -33,4 +36,37 @@ img{
     max-width: 200px;
     position: relative;
     top: 80px;
+}
+
+.rodape{
+    width: 100%;
+    background-color: #ffcc50;
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon{
+    align-items: flex-end;
+}
+
+@media (min-width:320px) and (max-width:767px){
+
+    *{  
+        width: 100%;
+        padding: 0;}
+        
+    main{
+            height: 46.5vh;
+            margin: 0 auto;
+            background-color: #ff9800;
+        }
+    .navbar{
+        display: block;
+        max-width: 500px;
+    }
+    .grid{
+        max-width: 320;
+    }
 }
