@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: large;
+    margin: 0 auto;
+}
+
+.banner{
+  
+    height: 30vh;
+    background-size: 50%;
+    background-position: center;
+ }
+
+.parte1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+.parte1 img{
+    width: 50%;
+}
+
+.container-fluid{
+    font-family: sans-serif;
+}
+
+.body{
+    background-image: linear-gradient(#ffff rgb(228, 231, 16));
+}   
+
+p{
+    font-family:sans-serif
+}
+
+.rodape{
+    width: 100%;
+    background-color: #ffcc50;
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon{
+    align-items: flex-end;
+}
