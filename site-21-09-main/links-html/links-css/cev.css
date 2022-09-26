@@ -38,8 +38,9 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.rodape h2{
+.rodape h5{
     margin-bottom: 0;
+    color: #712300;
 }
 
 .icon{
