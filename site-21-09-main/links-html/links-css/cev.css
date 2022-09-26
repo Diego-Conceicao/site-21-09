@@ -1,5 +1,4 @@
 *{
-    margin: 0%;
     padding: 0%;
     font-size: large;
     margin: 0 auto;
@@ -33,7 +32,7 @@ p{
 
 .rodape{
     width: 100%;
-    background-color: #ffcc50;
+    background-color: #ffff89;
     position: relative;
     top: 30px;
     display: grid;
