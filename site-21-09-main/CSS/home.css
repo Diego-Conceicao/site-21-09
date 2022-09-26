@@ -8,7 +8,7 @@
 
 main{
     width: 800px;
-    height: 40vh;
+    height: 49.5vh;
     margin: 0 auto;
     background-color: #ff9800;
 }
@@ -34,13 +34,16 @@ img{
 
 .rodape{
     width: 100%;
-    background-color: #ffcc50;
+    background-color: #ffff89;
     position: relative;
     top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.rodape h2{
+    margin-bottom: 0;
+}
 .icon{
     align-items: flex-end;
 }
